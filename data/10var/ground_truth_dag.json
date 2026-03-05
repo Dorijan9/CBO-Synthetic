@@ -1,0 +1,295 @@
+{
+  "description": "Synthetic random DAG: 10 variables, 15 edges",
+  "variables": {
+    "X0": {
+      "name": "X0"
+    },
+    "X1": {
+      "name": "X1"
+    },
+    "X2": {
+      "name": "X2"
+    },
+    "X3": {
+      "name": "X3"
+    },
+    "X4": {
+      "name": "X4"
+    },
+    "X5": {
+      "name": "X5"
+    },
+    "X6": {
+      "name": "X6"
+    },
+    "X7": {
+      "name": "X7"
+    },
+    "X8": {
+      "name": "X8"
+    },
+    "X9": {
+      "name": "X9"
+    }
+  },
+  "topological_order": [
+    "X0",
+    "X1",
+    "X2",
+    "X3",
+    "X4",
+    "X5",
+    "X6",
+    "X7",
+    "X8",
+    "X9"
+  ],
+  "edges": [
+    {
+      "source": "X3",
+      "target": "X9",
+      "weight": 0.519,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X4",
+      "target": "X9",
+      "weight": 0.649,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X8",
+      "target": "X9",
+      "weight": -0.312,
+      "sign": "inhibitory"
+    },
+    {
+      "source": "X2",
+      "target": "X9",
+      "weight": 0.693,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X3",
+      "target": "X6",
+      "weight": -0.575,
+      "sign": "inhibitory"
+    },
+    {
+      "source": "X2",
+      "target": "X7",
+      "weight": 0.763,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X7",
+      "target": "X8",
+      "weight": 0.711,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X4",
+      "target": "X7",
+      "weight": 0.414,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X0",
+      "target": "X5",
+      "weight": 0.332,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X3",
+      "target": "X4",
+      "weight": 0.616,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X5",
+      "target": "X6",
+      "weight": 0.477,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X0",
+      "target": "X8",
+      "weight": 0.747,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X3",
+      "target": "X8",
+      "weight": 0.397,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X1",
+      "target": "X2",
+      "weight": 0.322,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X2",
+      "target": "X6",
+      "weight": -0.458,
+      "sign": "inhibitory"
+    }
+  ],
+  "adjacency_matrix": {
+    "order": [
+      "X0",
+      "X1",
+      "X2",
+      "X3",
+      "X4",
+      "X5",
+      "X6",
+      "X7",
+      "X8",
+      "X9"
+    ],
+    "matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "scm_parameters": {
+    "noise_variance": 0.3,
+    "weights": {
+      "w_X3X9": 0.519,
+      "w_X4X9": 0.649,
+      "w_X8X9": -0.312,
+      "w_X2X9": 0.693,
+      "w_X3X6": -0.575,
+      "w_X2X7": 0.763,
+      "w_X7X8": 0.711,
+      "w_X4X7": 0.414,
+      "w_X0X5": 0.332,
+      "w_X3X4": 0.616,
+      "w_X5X6": 0.477,
+      "w_X0X8": 0.747,
+      "w_X3X8": 0.397,
+      "w_X1X2": 0.322,
+      "w_X2X6": -0.458
+    }
+  }
+}

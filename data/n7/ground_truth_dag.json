@@ -1,0 +1,209 @@
+{
+  "description": "Synthetic random DAG with 7 variables",
+  "variables": {
+    "X0": {
+      "name": "X0"
+    },
+    "X1": {
+      "name": "X1"
+    },
+    "X2": {
+      "name": "X2"
+    },
+    "X3": {
+      "name": "X3"
+    },
+    "X4": {
+      "name": "X4"
+    },
+    "X5": {
+      "name": "X5"
+    },
+    "X6": {
+      "name": "X6"
+    }
+  },
+  "topological_order": [
+    "X3",
+    "X2",
+    "X6",
+    "X4",
+    "X1",
+    "X5",
+    "X0"
+  ],
+  "edges": [
+    {
+      "source": "X1",
+      "target": "X5",
+      "weight": 0.79,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X2",
+      "target": "X1",
+      "weight": 0.53,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X2",
+      "target": "X4",
+      "weight": 0.76,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X2",
+      "target": "X6",
+      "weight": 0.41,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X3",
+      "target": "X1",
+      "weight": -0.71,
+      "sign": "inhibitory"
+    },
+    {
+      "source": "X3",
+      "target": "X4",
+      "weight": 0.79,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X4",
+      "target": "X0",
+      "weight": -0.53,
+      "sign": "inhibitory"
+    },
+    {
+      "source": "X4",
+      "target": "X1",
+      "weight": -0.64,
+      "sign": "inhibitory"
+    },
+    {
+      "source": "X6",
+      "target": "X0",
+      "weight": -0.49,
+      "sign": "inhibitory"
+    },
+    {
+      "source": "X6",
+      "target": "X1",
+      "weight": -0.36,
+      "sign": "inhibitory"
+    },
+    {
+      "source": "X6",
+      "target": "X4",
+      "weight": 0.41,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X6",
+      "target": "X5",
+      "weight": 0.72,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X3",
+      "target": "X2",
+      "weight": -0.65,
+      "sign": "inhibitory"
+    }
+  ],
+  "adjacency_matrix": {
+    "order": [
+      "X0",
+      "X1",
+      "X2",
+      "X3",
+      "X4",
+      "X5",
+      "X6"
+    ],
+    "matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    ]
+  },
+  "scm_parameters": {
+    "noise_variance": 0.3,
+    "weights": {
+      "w_X1X5": 0.79,
+      "w_X2X1": 0.53,
+      "w_X2X4": 0.76,
+      "w_X2X6": 0.41,
+      "w_X3X1": -0.71,
+      "w_X3X4": 0.79,
+      "w_X4X0": -0.53,
+      "w_X4X1": -0.64,
+      "w_X6X0": -0.49,
+      "w_X6X1": -0.36,
+      "w_X6X4": 0.41,
+      "w_X6X5": 0.72,
+      "w_X3X2": -0.65
+    }
+  }
+}

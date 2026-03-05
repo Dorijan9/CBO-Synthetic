@@ -1,0 +1,122 @@
+{
+  "description": "Synthetic random DAG with 5 variables",
+  "variables": {
+    "X0": {
+      "name": "X0"
+    },
+    "X1": {
+      "name": "X1"
+    },
+    "X2": {
+      "name": "X2"
+    },
+    "X3": {
+      "name": "X3"
+    },
+    "X4": {
+      "name": "X4"
+    }
+  },
+  "topological_order": [
+    "X4",
+    "X2",
+    "X3",
+    "X1",
+    "X0"
+  ],
+  "edges": [
+    {
+      "source": "X2",
+      "target": "X0",
+      "weight": 0.35,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X3",
+      "target": "X0",
+      "weight": 0.53,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X3",
+      "target": "X1",
+      "weight": 0.76,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X4",
+      "target": "X1",
+      "weight": 0.41,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X4",
+      "target": "X2",
+      "weight": 0.33,
+      "sign": "excitatory"
+    },
+    {
+      "source": "X4",
+      "target": "X3",
+      "weight": 0.68,
+      "sign": "excitatory"
+    }
+  ],
+  "adjacency_matrix": {
+    "order": [
+      "X0",
+      "X1",
+      "X2",
+      "X3",
+      "X4"
+    ],
+    "matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    ]
+  },
+  "scm_parameters": {
+    "noise_variance": 0.3,
+    "weights": {
+      "w_X2X0": 0.35,
+      "w_X3X0": 0.53,
+      "w_X3X1": 0.76,
+      "w_X4X1": 0.41,
+      "w_X4X2": 0.33,
+      "w_X4X3": 0.68
+    }
+  }
+}

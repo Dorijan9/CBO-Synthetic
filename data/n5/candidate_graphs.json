@@ -1,0 +1,276 @@
+{
+  "description": "Candidates for n=5",
+  "variable_order": [
+    "X0",
+    "X1",
+    "X2",
+    "X3",
+    "X4"
+  ],
+  "candidates": [
+    {
+      "id": "G1",
+      "confidence": 0.7,
+      "description": "Ground truth",
+      "edges": [],
+      "adjacency_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "rationale": "Ground truth"
+    },
+    {
+      "id": "G2",
+      "confidence": 0.6,
+      "description": "Add X4\u2192X0",
+      "edges": [],
+      "adjacency_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "rationale": "Add X4\u2192X0"
+    },
+    {
+      "id": "G3",
+      "confidence": 0.56,
+      "description": "Reverse X4\u2192X3",
+      "edges": [],
+      "adjacency_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "rationale": "Reverse X4\u2192X3"
+    },
+    {
+      "id": "G4",
+      "confidence": 0.52,
+      "description": "Reverse X3\u2192X0",
+      "edges": [],
+      "adjacency_matrix": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "rationale": "Reverse X3\u2192X0"
+    },
+    {
+      "id": "G5",
+      "confidence": 0.48,
+      "description": "Add X1\u2192X2",
+      "edges": [],
+      "adjacency_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "rationale": "Add X1\u2192X2"
+    },
+    {
+      "id": "G6",
+      "confidence": 0.44,
+      "description": "Remove X4\u2192X1",
+      "edges": [],
+      "adjacency_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "rationale": "Remove X4\u2192X1"
+    }
+  ]
+}

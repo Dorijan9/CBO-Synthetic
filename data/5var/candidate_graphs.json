@@ -1,0 +1,496 @@
+{
+  "description": "Candidate graphs for 5-variable synthetic DAG",
+  "variable_order": [
+    "X0",
+    "X1",
+    "X2",
+    "X3",
+    "X4"
+  ],
+  "candidates": [
+    {
+      "id": "G1",
+      "confidence": 0.7,
+      "description": "Ground truth",
+      "edges": [],
+      "adjacency_matrix": [
+        [
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rationale": "Ground truth"
+    },
+    {
+      "id": "G2",
+      "confidence": 0.6,
+      "description": "Modified (1 edge changes)",
+      "edges": [],
+      "adjacency_matrix": [
+        [
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rationale": "Modified (1 edge changes)"
+    },
+    {
+      "id": "G3",
+      "confidence": 0.572,
+      "description": "Modified (1 edge changes)",
+      "edges": [],
+      "adjacency_matrix": [
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rationale": "Modified (1 edge changes)"
+    },
+    {
+      "id": "G4",
+      "confidence": 0.544,
+      "description": "Modified (1 edge changes)",
+      "edges": [],
+      "adjacency_matrix": [
+        [
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rationale": "Modified (1 edge changes)"
+    },
+    {
+      "id": "G5",
+      "confidence": 0.517,
+      "description": "Modified (1 edge changes)",
+      "edges": [],
+      "adjacency_matrix": [
+        [
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rationale": "Modified (1 edge changes)"
+    },
+    {
+      "id": "G6",
+      "confidence": 0.489,
+      "description": "Modified (1 edge changes)",
+      "edges": [],
+      "adjacency_matrix": [
+        [
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rationale": "Modified (1 edge changes)"
+    },
+    {
+      "id": "G7",
+      "confidence": 0.461,
+      "description": "Modified (1 edge changes)",
+      "edges": [],
+      "adjacency_matrix": [
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rationale": "Modified (1 edge changes)"
+    },
+    {
+      "id": "G8",
+      "confidence": 0.433,
+      "description": "Modified (1 edge changes)",
+      "edges": [],
+      "adjacency_matrix": [
+        [
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rationale": "Modified (1 edge changes)"
+    },
+    {
+      "id": "G9",
+      "confidence": 0.406,
+      "description": "Modified (1 edge changes)",
+      "edges": [],
+      "adjacency_matrix": [
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rationale": "Modified (1 edge changes)"
+    },
+    {
+      "id": "G10",
+      "confidence": 0.378,
+      "description": "Modified (1 edge changes)",
+      "edges": [],
+      "adjacency_matrix": [
+        [
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rationale": "Modified (1 edge changes)"
+    },
+    {
+      "id": "G11",
+      "confidence": 0.35,
+      "description": "Modified (1 edge changes)",
+      "edges": [],
+      "adjacency_matrix": [
+        [
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rationale": "Modified (1 edge changes)"
+    }
+  ]
+}
