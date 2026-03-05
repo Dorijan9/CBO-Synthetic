@@ -144,9 +144,9 @@ def run_experiment(sizes: list = None, n_repeats: int = 5, seed: int = 42):
         # Scale iterations and EIG budget with size
         config = {
             **base_config,
-            "max_iterations": min(6 + n, 15),
+            "max_iterations": min(6 + n // 2, 15),  # bounded budget
             "n_eig_simulations": max(20, 100 - 3 * n),
-            "n_obs_samples": min(150, max(30, 200 - 7 * n)),  # fewer obs for large n
+            "n_obs_samples": min(150, max(30, 200 - 7 * n)),
             "n_int_samples": 10,
         }
 

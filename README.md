@@ -14,15 +14,18 @@ Isolates the scaling question from biological grounding.
 
 ## Sizes Tested
 
-| Variables | ~Edges | K (candidates) | Mods per candidate |
-|-----------|--------|----------------|--------------------|
-| 5         | 8      | 11             | 1                  |
-| 7         | 10     | 13             | 1                  |
-| 10        | 15     | 16             | 2                  |
-| 15        | 22     | 20             | 3                  |
-| 20        | 30     | 20             | 4                  |
-| 25        | 38     | 20             | 5                  |
-| 30        | 45     | 20             | 6                  |
+| Variables | ~Edges | K (candidates) | Mods | Setting |
+|-----------|--------|----------------|------|---------|
+| 5         | 8      | 10             | 1    | Single-edge modifications |
+| 7         | 10     | 14             | 1    | Single-edge modifications |
+| 10        | 15     | 20             | 1    | Single-edge modifications |
+| 15        | 22     | 25             | 1    | Single-edge modifications |
+| 20        | 30     | 25             | 1    | Single-edge modifications |
+| 25        | 38     | 25             | 1    | Single-edge modifications |
+| 30        | 45     | 25             | 1    | Single-edge modifications |
+
+All candidates differ from ground truth by exactly one edge (removal, reversal, or addition),
+making them maximally confusable. K scales as min(2n, 25).
 
 ## Running
 

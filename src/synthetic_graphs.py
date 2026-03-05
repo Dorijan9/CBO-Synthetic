@@ -106,7 +106,7 @@ def generate_candidates(variables: list, adj_true: np.ndarray, edges: list,
 
     confidences = np.linspace(0.60, 0.35, n_candidates - 1)
     attempts = 0
-    max_attempts = 1000
+    max_attempts = 5000
 
     while len(candidates) < n_candidates and attempts < max_attempts:
         attempts += 1
@@ -176,9 +176,9 @@ def generate_scenario(n: int, edges_per_var: float = 1.5,
     - n_modifications increases: candidates differ by more edges
     """
     if n_candidates is None:
-        n_candidates = min(6 + n, 20)
+        n_candidates = min(2 * n, 25)  # K = 2n, capped at 25
     if n_modifications is None:
-        n_modifications = max(1, n // 5)
+        n_modifications = 1  # Always single-edge — hardest setting
 
     variables, topo_order, adj, edges = random_dag(n, edges_per_var, seed)
     weights = assign_weights(edges, seed)
